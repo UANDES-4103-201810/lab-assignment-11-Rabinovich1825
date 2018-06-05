@@ -6,7 +6,7 @@ RSpec.describe User, type: :model do
   end
 
   it "valid attributes" do
-    @user1 = create(:user, username: "new user", email: "valid@emai.yes")
+    @user1 = build(:user, username: "new user", email: "valid@emai.yes")
     expect(@user1).to be_valid
   end
   it "unique username" do

@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :message do
-    user 1
+    user_id 1
     date "2018-06-05 13:53:46"
     content "MyString"
   end
